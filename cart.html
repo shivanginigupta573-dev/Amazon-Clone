@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart</title>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo"></div>
+      </div>
+      <div class="address border">
+        <p id="add1"> Deliver to</p>
+        <i class="fa-solid fa-location-dot"></i>
+        <p id="country">India</p>
+      </div>
+      <div class="search-bar">
+        <select id="search-select"><option>All</option></select>
+        <input id="search-input" placeholder="Search Amazon">
+        <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="language border">
+        <i class="fa-solid fa-flag-usa"></i>
+        <select style="background-color:transparent;color:white">
+          <option>EN</option>
+        </select>
+      </div>
+      <div class="signin border">
+        <p id="sign-para">Hello, sign in</p>
+        <select id="sign-in-select">
+          <option>Account & Lists</option>
+        </select>
+      </div>
+      <div class="returns border">
+        <p style="font-size:12px;">Returns</p>
+        <p style="font-size:14px; font-weight:bold;">& Orders</p>
+      </div>
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-All border">
+        <i style="font-size:0.9rem;font-weight:700;" class="fa-solid fa-bars"></i>
+        All
+      </div>
+      <div class="panel-options">
+        <p class="border">Today's Deals</p>
+        <p class="border">Registry</p>
+        <p class="border">Prime Video</p>
+        <p class="border">Gift Cards</p>
+        <p class="border">Customer Service</p>
+        <p class="border">Sell</p>
+      </div>
+    </div>
+  </header>
+
+ 
+  <main>
+
+  <div>
+    <h1>Shopping Cart</h1>
+    <div id="cart_box"></div>
+  </div>
+
+
+  <div class="cart_summary">
+    <h2 id="cart_total">Total: $0</h2>
+    <button class="checkout-btn">Proceed to Checkout</button>
+  </div>
+
+
+</main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="foot-panel1">Back to top</div>
+    <div class="foot-panel2">
+      <ul>
+        <p>Get to Know Us</p>
+        <a>Careers</a><a>Blog</a><a>About Amazon</a>
+        <a>Investor Relations</a><a>Amazon Devices</a><a>Amazon Science</a>
+      </ul>
+      <ul>
+        <p>Make Money with Us</p>
+        <a>Sell on Amazon</a><a>Sell under Amazon Accelerator</a>
+        <a>Protect and Build Your Brand</a><a>Amazon Global Selling</a>
+        <a>Supply to Amazon</a><a>Become an Affiliate</a>
+        <a>Fulfilment by Amazon</a><a>Advertise Your Products</a>
+        <a>Amazon Pay on Merchants</a>
+      </ul>
+      <ul>
+        <p>Connect with Us</p>
+        <a>Facebook</a><a>Twitter</a><a>Instagram</a>
+      </ul>
+      <ul>
+        <p>Let Us Help You</p>
+        <a>Your Account</a><a>Returns Centre</a>
+        <a>Recalls and Product Safety Alerts</a><a>100% Purchase Protection</a>
+        <a>Amazon App Download</a><a>Help</a>
+      </ul>
+    </div>
+    <div class="foot-panel3">
+      <div class="logo1">
+        <a>Conditions of Use & Sale</a>
+        <a>Privacy Notice</a>
+        <a>Interest-Based Ads</a>
+        <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="amazon.js"></script>
+</body>
+</html>
